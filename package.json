@@ -15,6 +15,7 @@
     "@nextui-org/kbd": "2.0.17",
     "@nextui-org/link": "2.0.19",
     "@nextui-org/navbar": "2.0.19",
+    "@nextui-org/react": "^2.1.13",
     "@nextui-org/snippet": "2.0.22",
     "@nextui-org/switch": "2.0.18",
     "@nextui-org/system": "2.0.7",
@@ -23,13 +24,12 @@
     "@react-aria/visually-hidden": "^3.8.3",
     "@tremor/react": "^3.9.2",
     "@types/node": "20.5.7",
-    "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
     "clsx": "^2.0.0",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
-    "framer-motion": "^10.16.2",
+    "framer-motion": "^10.16.4",
     "intl-messageformat": "^10.5.0",
     "next": "13.4.19",
     "next-themes": "^0.2.1",
@@ -39,5 +39,8 @@
     "tailwind-variants": "^0.1.13",
     "tailwindcss": "3.3.3",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.31"
   }
 }

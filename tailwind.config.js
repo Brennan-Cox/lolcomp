@@ -138,7 +138,7 @@ module.exports = {
         },
         dark: {
           colors: {
-            primary: "#9353d3",
+            primary: "#FFB457",
           }
         },
       },
