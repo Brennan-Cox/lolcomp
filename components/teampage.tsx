@@ -30,7 +30,10 @@ export function TeamPage( props : any) {
 							<p className="uppercase font-bold">Favorite Champions for each team member</p>
 						</CardHeader>
 						<CardBody className="overflow-visible py-2">
-							<Champs />
+                            <p>
+                                This section was meant to show every champion the members that play with the champion the roles the champion is used with and the win rate of each champion to help the user understand what champions to ban from the other team or build a strategy on how to defeat them.
+                            </p>
+							<Champs team={props.team} />
 						</CardBody>
 					</Card>
 				</GridDisplay>
