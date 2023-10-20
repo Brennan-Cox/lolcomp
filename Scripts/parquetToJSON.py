@@ -3,5 +3,7 @@
 import pandas as pd
 import sys
 
-parq = pd.read_parquet('./public/Data/' + sys.argv[1] + '.parquet')
-parq.to_json('./public/Data/' + sys.argv[1] + '.json', orient='records')
+for arg in sys.argv[1:]: 
+    print(arg)
+    parq = pd.read_parquet('./public/Data/' + arg + '.parquet')
+    parq.to_json('./public/Data/' + arg + '.json', orient='records')
