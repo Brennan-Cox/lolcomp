@@ -6,10 +6,10 @@ import { WardMap } from "./wardmap";
 
 export function TeamPage( props : any) {
 	return (
-		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 lg-screen-w">
 			<div className="inline-block max-w-lg text-center justify-center">
 				<div className="flex flex-col items-center justify-center gap-4">
-					<Image className="items-center justify-center" src={props.teamLogo} width={270} />
+					<Image className="items-center justify-center py-4" src={props.teamLogo} width={270} />
 				</div>
 				<GridDisplay
 					numItems={2}

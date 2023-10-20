@@ -23,9 +23,8 @@ try:
     plt.ylabel('Ward Y Position')
     plt.title('Ward Placement Map' + '\n' + team_name)
 
-    plt.legend()
-
     plt.savefig('./public/images/ward_plot.png')
+    print('done')
 except Exception as e:
     print(e)
 # plt.show()
